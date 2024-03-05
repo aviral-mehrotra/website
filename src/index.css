@@ -26,13 +26,19 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 500px;
   min-height: 100vh;
 }
 
 h1 {
   font-size: 5.2em;
   line-height: 0;
+}
+
+p {
+  font-size: 1.2em;
+  white-space: 'pre-wrap';
+  max-width: 500px;
+  padding-bottom: 2.4em;
 }
 
 button {
@@ -64,5 +70,20 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.2em;
+    line-height: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1em;
+    max-width: 300px;
+    white-space: 'pre-wrap';
   }
 }

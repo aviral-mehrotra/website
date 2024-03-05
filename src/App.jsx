@@ -34,7 +34,7 @@ function App() {
       <div style={ centerDivStyle }>
         <div style={ headerStyle }>
           <h1>Aviral Mehrotra</h1>
-          <p style={{ fontSize: '1.2em', whiteSpace: 'pre-wrap', width: 500, paddingBottom: '2.4em' }}>
+          <p>
             I'm a first-year student at the University of Chicago studying Computer Science and Business Economics
           </p>
           <div style={ socialIconStyle }>
