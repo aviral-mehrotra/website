@@ -50,7 +50,7 @@ function App() {
             <div style={{ marginLeft: '3px' }}>
               <SocialIcon bgColor="#888" network="instagram" url="https://www.instagram.com/aviral_mehrotra/" target="_blank"/>
             </div>
-            
+            <div className='down-arrow'></div>
           </div>
         </div>
       </div>
