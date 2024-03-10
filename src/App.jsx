@@ -22,7 +22,7 @@ function App() {
     justifyContent: 'center',
     alignItems: 'center',
     width: '100vw',
-    height: '75vh',
+    height: '60vh',
     backgroundColor: '#AAA'
   }
 
@@ -95,10 +95,10 @@ function App() {
             I split my time between the University of Chicago campus in Hyde Park and River North in downtown Chicago
             </p>
             <h3>Contact</h3>
-            <p>
+            <p style={{ marginBottom: '0' }}>
               The best way to reach me is via email at
             </p>
-            <a href="aviral.mehrotra@gmail.com"></a>
+            <a href="mailto:amehrotra.web@gmail.com">amehrotra dot web at gmail dot com</a>
           </div>
           <img className="headshot" src={headshot} alt="headshot" />
         </div>
